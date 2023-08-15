@@ -4,16 +4,16 @@
 php spark generate:model tablename
 ```
 抓取 table 自動產生對應的 Model  
-
 ```
-php spark generate:controller tablename
+php spark generate:controller tablename  
 ‵‵‵
-自動產生 CRUD 的 controller 檔案
+自動產生 CRUD 的 controller 檔案  
 
-## 安裝方式：
+
+## 安裝方式：  
 將 app 資料夾完整放入
 
-## 前提：
+## 前提：  
 BaseController.php 中要包含 輸出處理 function
 ```
 
