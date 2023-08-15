@@ -16,9 +16,7 @@ php spark generate:controller tablename
 ## 前提：
 BaseController.php 中要包含 輸出處理 function
 ```
- /**
-     * 輸出處理
-     */
+
     protected function successResponse($data = null)
     {
         // 設定允許跨域
