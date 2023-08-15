@@ -1,13 +1,16 @@
 # AutoAPI 功能
 ## 功能說明：  
+### 抓取 table 自動產生對應的 Model  
 ```
 php spark generate:model tablename
 ```
-抓取 table 自動產生對應的 Model  
+
+### 自動產生 CRUD 的 controller 檔案  
 ```
 php spark generate:controller tablename  
-‵‵‵
-自動產生 CRUD 的 controller 檔案  
+```
+
+
 
 
 ## 安裝方式：  
@@ -64,5 +67,4 @@ BaseController.php 中要包含 輸出處理 function
        
         return $this->response->setJSON($response);
     }
-
 ```
